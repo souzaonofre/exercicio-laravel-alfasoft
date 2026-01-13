@@ -9,9 +9,9 @@ use Tests\TestCase;
 class ContactControllerTest extends TestCase
 {
     /**
-     * A basic feature test example.
+     * A Contact dasboard http test.
      */
-    public function test_example(): void
+    public function test_contact_dashboard(): void
     {
         $response = $this->get('/');
 
