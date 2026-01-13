@@ -185,4 +185,8 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+
+    // config admin username
+    'admin_username' => env('APP_ADMIN_USERNAME', 'admin'),
+
 ];
